@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1721212729 source:d:\my\courses\bootloader\projects\host\stm32_programmer_v1\blcommands.c
+	"main.h"
+
+1721211503 d:\my\courses\bootloader\projects\host\stm32_programmer_v1\main.h
+	<Windows.h>
+	<stdio.h>
+	<string.h>
+	<stdint.h>
+	"WindowsSerialPort.h"
+	"LinuxSerialPort.h"
+	"OSxSerialPort.h"
+
+1720595806 d:\my\courses\bootloader\projects\host\stm32_programmer_v1\windowsserialport.h
+
+1720595806 d:\my\courses\bootloader\projects\host\stm32_programmer_v1\linuxserialport.h
+
+1720595806 d:\my\courses\bootloader\projects\host\stm32_programmer_v1\osxserialport.h
+
+1720595806 source:d:\my\courses\bootloader\projects\host\stm32_programmer_v1\blreplyprocessing.c
+	"main.h"
+
+1720595806 source:d:\my\courses\bootloader\projects\host\stm32_programmer_v1\fileops.c
+	"main.h"
+
+1720595806 source:d:\my\courses\bootloader\projects\host\stm32_programmer_v1\linuxserialport.c
+	"main.h"
+	"LinuxSerialPort.h"
+
+1720595806 source:d:\my\courses\bootloader\projects\host\stm32_programmer_v1\main.c
+	"main.h"
+
+1720595806 source:d:\my\courses\bootloader\projects\host\stm32_programmer_v1\osxserialport.c
+	"main.h"
+	"OSxSerialPort.h"
+
+1720595806 source:d:\my\courses\bootloader\projects\host\stm32_programmer_v1\utilities.c
+	"main.h"
+
+1720791022 source:d:\my\courses\bootloader\projects\host\stm32_programmer_v1\windowsserialport.c
+	"main.h"
+
