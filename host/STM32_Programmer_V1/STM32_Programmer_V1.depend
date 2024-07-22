@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1721212729 source:d:\my\courses\bootloader\projects\host\stm32_programmer_v1\blcommands.c
+1721639758 source:d:\my\courses\bootloader\projects\host\stm32_programmer_v1\blcommands.c
 	"main.h"
 
-1721211503 d:\my\courses\bootloader\projects\host\stm32_programmer_v1\main.h
+1721639997 d:\my\courses\bootloader\projects\host\stm32_programmer_v1\main.h
 	<Windows.h>
 	<stdio.h>
 	<string.h>
@@ -17,10 +17,10 @@
 
 1720595806 d:\my\courses\bootloader\projects\host\stm32_programmer_v1\osxserialport.h
 
-1720595806 source:d:\my\courses\bootloader\projects\host\stm32_programmer_v1\blreplyprocessing.c
+1721638808 source:d:\my\courses\bootloader\projects\host\stm32_programmer_v1\blreplyprocessing.c
 	"main.h"
 
-1720595806 source:d:\my\courses\bootloader\projects\host\stm32_programmer_v1\fileops.c
+1721293643 source:d:\my\courses\bootloader\projects\host\stm32_programmer_v1\fileops.c
 	"main.h"
 
 1720595806 source:d:\my\courses\bootloader\projects\host\stm32_programmer_v1\linuxserialport.c
@@ -37,6 +37,6 @@
 1720595806 source:d:\my\courses\bootloader\projects\host\stm32_programmer_v1\utilities.c
 	"main.h"
 
-1720791022 source:d:\my\courses\bootloader\projects\host\stm32_programmer_v1\windowsserialport.c
+1721334868 source:d:\my\courses\bootloader\projects\host\stm32_programmer_v1\windowsserialport.c
 	"main.h"
 

@@ -9,7 +9,7 @@ HANDLE hComm;                          // Handle to the Serial port
 
 void Serial_Port_Configuration(void)
 {
-    char   ComPortName[] = "\\\\.\\COM10"; // Name of the Serial port(May Change) to be opened,
+    char   ComPortName[] = "\\\\.\\COM9"; // Name of the Serial port(May Change) to be opened,
     BOOL   Status;
 
 /*----------------------------------- Opening the Serial Port --------------------------------------------*/
@@ -25,7 +25,7 @@ void Serial_Port_Configuration(void)
     {
          printf("\n   Error! - Port %s can't be opened", ComPortName);
          printf("\n   Check board connection and Port Number\n");
-         exit(-1);
+         //exit(-1);
     }
 
     else

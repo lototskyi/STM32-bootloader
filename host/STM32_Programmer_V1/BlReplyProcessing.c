@@ -21,7 +21,7 @@ int read_bootloader_reply(uint8_t command_code)
     {
         //CRC of last command was good .. received ACK and "len to follow"
         len_to_follow=ack[1];
-        printf("\n\n   CRC : SUCCESS Len : %d\n",len_to_follow);
+        printf("\n\n   CRC : SUCCESS Len : %d\n", len_to_follow);
 
         switch(0x50 | command_code)
         {
@@ -249,7 +249,7 @@ void process_COMMAND_BL_READ_SECTOR_STATUS(uint32_t len)
         printf("\n  Flash protection mode : Write Protection\n");
     }
 
-    for(i=0;i<8;i++)
+    for(i=0;i<12;i++)
     printf("\n  Sector%d                 %s",i,protection_type(&s_status,i));
 
     printf("\n");

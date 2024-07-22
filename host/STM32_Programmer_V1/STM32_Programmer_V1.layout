@@ -7,29 +7,39 @@
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="fileops.c" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1735" topLine="29" />
+			<Cursor1 position="684" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="utilities.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="main.h" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="396" topLine="0" />
+			<Cursor1 position="2594" topLine="54" />
 		</Cursor>
 	</File>
 	<File name="WindowsSerialPort.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="4246" topLine="112" />
+			<Cursor1 position="41" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="main.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="utilities.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1748" topLine="48" />
+			<Cursor1 position="323" topLine="7" />
 		</Cursor>
 	</File>
-	<File name="BlCommands.c" open="1" top="1" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="BlReplyProcessing.c" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="456" topLine="0" />
+			<Cursor1 position="270" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="BlCommands.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9454" topLine="271" />
+		</Cursor>
+	</File>
+	<File name="main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1735" topLine="18" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

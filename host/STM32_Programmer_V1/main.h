@@ -75,7 +75,7 @@ uint32_t calc_file_len(void);
 #define COMMAND_BL_GO_TO_ADDR_LEN           10
 #define COMMAND_BL_FLASH_ERASE_LEN          8
 #define COMMAND_BL_MEM_WRITE_LEN(x)         (7+x+4)
-#define COMMAND_BL_EN_R_W_PROTECT_LEN       8
+#define COMMAND_BL_EN_R_W_PROTECT_LEN       9
 #define COMMAND_BL_READ_SECTOR_P_STATUS_LEN   6
 #define COMMAND_BL_DIS_R_W_PROTECT_LEN       6
 #define COMMAND_BL_MY_NEW_COMMAND_LEN        8

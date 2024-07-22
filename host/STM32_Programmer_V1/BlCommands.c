@@ -285,13 +285,14 @@ void decode_menu_command_code(uint32_t command_code)
 
         data_buf[0] = COMMAND_BL_EN_R_W_PROTECT_LEN-1;
         data_buf[1] = COMMAND_BL_EN_R_W_PROTECT;
-        data_buf[2] = sector_details;
-        data_buf[3] = mode;
+        data_buf[2] = word_to_byte(sector_details, 1, 1);
+        data_buf[3] = word_to_byte(sector_details, 2, 1);
+        data_buf[4] = mode;
         crc32       = get_crc(data_buf,COMMAND_BL_EN_R_W_PROTECT_LEN-4);
-        data_buf[4] = word_to_byte(crc32,1,1);
-        data_buf[5] = word_to_byte(crc32,2,1);
-        data_buf[6] = word_to_byte(crc32,3,1);
-        data_buf[7] = word_to_byte(crc32,4,1);
+        data_buf[5] = word_to_byte(crc32,1,1);
+        data_buf[6] = word_to_byte(crc32,2,1);
+        data_buf[7] = word_to_byte(crc32,3,1);
+        data_buf[8] = word_to_byte(crc32,4,1);
 
         Write_to_serial_port(&data_buf[0],1);
         Write_to_serial_port(&data_buf[1],COMMAND_BL_EN_R_W_PROTECT_LEN-1);
